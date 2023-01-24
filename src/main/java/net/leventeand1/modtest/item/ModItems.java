@@ -13,7 +13,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ModtestMod.MOD_ID);
 
-    public static final RegistryObject<Item> ORICHALCUM_INGOT = ITEMS.register("orichalcum_ingot",
+    public static final RegistryObject<Item> DIAMOND_INGOT = ITEMS.register("diamond_ingot",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static void register(IEventBus eventBus) {
